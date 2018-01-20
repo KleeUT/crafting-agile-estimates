@@ -185,9 +185,119 @@ Write it down some where you'll need it later.
 ## Best Case
 
 Speaker: 
+The next extimate is the best case. 
+For this estimate you want to think about how this would go on the best day.  You're at your peak, your day is going great, you've had just the right amount of coffee or booze, if you're chasing the ballmer peak. The task you're working on is specced out correctly.  The api you're calling is going to give you just what you want.  That kind of day. 
+
+Write this one down as well as your best estimate.  
 
 ---
 
 ## Worst Case
 
 Speaker: 
+If you've got a normal and a best, then obviously the third estimate is going to be the worst. For this estimate I want you to think about everything that can go wrong. Fighting with your partner, kids are being the worst, or maybe they're sick so you just cant get your head into the game.  
+The work well it's all specced wrong, you're gong to have to negotate changes to the api you're calling and you're pretty sure that no one has checked with legal about weather you're allowed to put that data on display to the public. You know it's all going to lead to the whole thing being redesigned and you'll have to do the work at least one more time. But for some reason you're being told just to go ahead and do it. 
+
+I know it's a bit extreme I know but your goal is to look at all the things that could go wrong. 
+Write this down as the worst estiamte, if it looks too high, then you're on the right track. 
+
+---
+
+## Math Magic 
+
+Speaker: 
+Three estimates are a bit confusing to pass off as a final number, so we'll apply some quick math to it.  
+
+---
+
+Estimate = (B + 4N + 4)/6
+
+Speaker:
+The function is quite simple
+1 bad 5 normal and 1 worst all over 6. 
+
+This will give you a padded normal case estiamte, and mean that you've gone through a bunch of work just to get from estimates to fancy padded estimates. 
+
+---
+
+## Distribution 
+Distribution = (B + W)/6 
+
+Speaker:
+Since we have data to work with now we can augment our estimate with a second number. This number represents how distribute the estimates are. 
+
+---
+
+ Estimate |Value
+------|--------------
+Best| 1
+Normal|3
+Worst| 12
+
+Speaker:
+Say we have these values for a peice of work
+
+---
+
+Output|Value
+-----|----
+Estimate|4.17
+Distribution|2.17
+
+Speaker: 
+Then we get these outputs. 
+
+According to Uncle Bob the chances of the task finishing within the estimate +/- the distribusion is around 95%. That's great, now we have an estiamte that is accurate. Better than that though is we can now start to communicate estimates with a confidence value. This means that people trying to optimise the process can now tackle the risk areas rather than the areas with high estimates. 
+
+
+---
+# 90%
+
+Speaker: 
+Now we're starting to get there. With trivariate estimation we're communicating estimates to the business that clearly show that they are not commitments, unless they are stable enough to be taken that way.  We're showing that it's not always the big items that are the ones to worry about. Instead they can focus on the items that might come through and take the project out from left field. 
+
+The last part of successfully using trivariate estimation to make your estimates more agile not just more accurate is to document the why of each estimate. 
+
+---
+
+## What are you considering normal?
+## What does best look like?
+## What does worst look like?
+
+---
+
+## Understand (and document) the why.
+
+Speaker: 
+Tracking the why your estimates are what they are is critical to making sure that your estimates are agile. There are two main reasons behind this. 
+
+If you dont know why they were set where they were then how can you adjust them should circumstances change? If the estimate on a story presumes that a certain case is in effect, reusing the example from earlier lets say that you assumed when estimating a story the sprint before the one your about to plan that the legal department would take issue with the design and/or copy. But when you look at it now you can see that legal has signed off both of those thing you'd be right to re-estimate it. 
+
+The second thing that understanding the why will give you is better communication back to the business. Using this method you can show the business that they can have a tangable effect 
+
+
+---
+## Hold on a dang minute?
+You're selling me waterfall.
+
+Speaker: 
+Get all your estimates done, get them accurate so we can count on them as a commitment. It really is starting to sound like waterfall isnt it. If you play your cards wrong it doesnt matter what you techniques you're using your going to go away from agile. 
+
+---
+**Individuals and interactions** over processes and tools
+
+**Working software** over comprehensive documentation
+
+**Customer collaboration** over contract negotiation
+
+**Responding to change over** following a plan
+
+
+Speaker: 
+When you're looking at a tool weather it's Trivariate estimates, no estimates, kanban scrum or the new hotness in Javascript farmeworks if you truely value agile you need to bring it back to the Agile Manifesto and the 12 principles of agile
+
+---
+
+Before asking for or providing an estimate.
+
+First ask yourself what decisions the estimate will be informing.
