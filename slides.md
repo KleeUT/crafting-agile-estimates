@@ -12,10 +12,18 @@ What I'd like to talk about today is estimation. It's something that we all do a
 ## What is an estimate?
 
 Speaker:
-Time?
-$$$?
-Guess?
-Fiction?
+Let's start by talking about what an estimate actually is.  
+In your mind, think of how you would describe an estimate in one word.  
+
+---
+
+One Word? 
+
+...
+
+Speaker:
+What was your word? 
+Was it? 
 
 ---
 
@@ -23,9 +31,11 @@ Complexity
 
 Time 
 
-Money
+Money 
 
 ---
+
+Inaccurate
 
 Guess
 
@@ -33,22 +43,20 @@ Fiction
 
 ---
 
-## A commitment
+Annoying
+
+Unpleasant 
+
+Hard
+
 
 ---
 
-## Estimates are a tool
-Speaker: 
-Like all tools they have their used but they can be misused and abused. 
+A commitment
 
-To often we use estimates for all the wrong reasons. 
-We do them because we always have. 
-Because we're caught up in big A agile and it says we have to.
-Because a manager said we need to. 
+---
 
-Then these estimates are then taken as a commitment. 
-
-Estimate accuracy is used as a KPI.  We know that measures used as target it ceases to be a good measure. So estimates are padded.  And now we see estimates as fiction and obviously the answer is simple.
+Damaging 
 
 ---
 
@@ -82,6 +90,21 @@ The case for not giving up is that if you dont estimate your work someone else w
 
 ---
 
+## Estimates are a tool
+Speaker: 
+Like all tools they have their used but they can be misused and abused. 
+
+To often we use estimates for all the wrong reasons. 
+We do them because we always have. 
+Because we're caught up in big A agile and it says we have to.
+Because a manager said we need to. 
+
+Then these estimates are then taken as a commitment. 
+
+Estimate accuracy is used as a KPI.  We know that measures used as target it ceases to be a good measure. So estimates are padded.  And now we see estimates as fiction and obviously the answer is simple.
+
+---
+
 ## Communication
 
 
@@ -105,6 +128,10 @@ The first step to being lean and agile with anything is not doing what you dont 
 
 This is true of estimating as it is with anything else. 
 
+If your task in a project is a one off move this data from this text file full of test data to a database. would you create a responsive web app great styling to do the data transfer or would you do a quick text transformation, turn into insert statements and run the commands against the database? 
+
+But if it was  task done by a user every day, then you might create a web app or even automate the process. 
+
 ---
 
 Before asking for or providing an estimate.
@@ -126,8 +153,12 @@ If you know why you're giving an estimate. What does your estimate look like.  A
 
 The estimate is:
 ## 27
-That will take **exactly** 27 fairy farts. 
 
+---
+
+The estimate is:
+## 27
+That will take **exactly** 27 fairy farts. 
 Speaker: 
 If we're not happy saying that our estimates are a commitment. Then why do we estimate with solid numbers.  Why do we give an exact number when we think that it will take around 27, maybe more, maybe less and almost certainly not 27. 
 
@@ -203,31 +234,6 @@ Write this down as the worst estiamte, if it looks too high, then you're on the 
 
 ---
 
-## Math Magic 
-
-Speaker: 
-Three estimates are a bit confusing to pass off as a final number, so we'll apply some quick math to it.  
-
----
-
-Estimate = (B + 4N + 4)/6
-
-Speaker:
-The function is quite simple
-1 bad 5 normal and 1 worst all over 6. 
-
-This will give you a padded normal case estiamte, and mean that you've gone through a bunch of work just to get from estimates to fancy padded estimates. 
-
----
-
-## Distribution 
-Distribution = (B + W)/6 
-
-Speaker:
-Since we have data to work with now we can augment our estimate with a second number. This number represents how distribute the estimates are. 
-
----
-
  Estimate |Value
 ------|--------------
 Best| 1
@@ -239,24 +245,32 @@ Say we have these values for a peice of work
 
 ---
 
+Estimate = (B + 4N + W)/6
+
+Speaker:
+The function is quite simple
+1 bad 5 normal and 1 worst all over 6. 
+
+This will give you a padded normal case estiamte, and mean that you've gone through a bunch of work just to get from estimates to fancy padded estimates. 
+
+---
+
+Distribution = (B + W)/6 
+
+Speaker:
+Since we have data to work with now we can augment our estimate with a second number. This number represents how distribute the estimates are. 
+
+---
+
 Output|Value
 -----|----
-Estimate|4.17
-Distribution|2.17
+Estimate|4.8
+Distribution|2.2
 
 Speaker: 
 Then we get these outputs. 
 
 According to Uncle Bob the chances of the task finishing within the estimate +/- the distribusion is around 95%. That's great, now we have an estiamte that is accurate. Better than that though is we can now start to communicate estimates with a confidence value. This means that people trying to optimise the process can now tackle the risk areas rather than the areas with high estimates. 
-
-
----
-# 90%
-
-Speaker: 
-Now we're starting to get there. With trivariate estimation we're communicating estimates to the business that clearly show that they are not commitments, unless they are stable enough to be taken that way.  We're showing that it's not always the big items that are the ones to worry about. Instead they can focus on the items that might come through and take the project out from left field. 
-
-The last part of successfully using trivariate estimation to make your estimates more agile not just more accurate is to document the why of each estimate. 
 
 ---
 
@@ -269,12 +283,18 @@ The last part of successfully using trivariate estimation to make your estimates
 ## Understand (and document) the why.
 
 Speaker: 
-Tracking the why your estimates are what they are is critical to making sure that your estimates are agile. There are two main reasons behind this. 
+Tracking the why your estimates are what they are is critical to making sure that your estimates are agile. There are three main reasons behind this. 
 
 If you dont know why they were set where they were then how can you adjust them should circumstances change? If the estimate on a story presumes that a certain case is in effect, reusing the example from earlier lets say that you assumed when estimating a story the sprint before the one your about to plan that the legal department would take issue with the design and/or copy. But when you look at it now you can see that legal has signed off both of those thing you'd be right to re-estimate it. 
 
-The second thing that understanding the why will give you is better communication back to the business. Using this method you can show the business that they can have a tangable effect 
+The second thing that understanding the why will give you is a tool for better communication and collaboartion within the team. Documenting these gives a chance for everyone to have their say on what they can see as potential roadblocks and ways to speed up the body of work. 
 
+
+The third advantage is that using this method you can show the business that they can have a tangable effect on the delivery of the project without cutting features or saying just work faster. If you've sighted that issues with legal signoff are blockers to the work then maybe someone managing the project can help you with that rather than you suffering in scilence.  Maybe you would have brought this up any way but now you can show the monetary cost, and as much as we want software to be an art, in the end it all comes back to money. 
+
+---
+
+Future you will thank you. 
 
 ---
 ## Hold on a dang minute?
@@ -290,14 +310,40 @@ Get all your estimates done, get them accurate so we can count on them as a comm
 
 **Customer collaboration** over contract negotiation
 
-**Responding to change over** following a plan
+**Responding to change** over following a plan
 
 
 Speaker: 
-When you're looking at a tool weather it's Trivariate estimates, no estimates, kanban scrum or the new hotness in Javascript farmeworks if you truely value agile you need to bring it back to the Agile Manifesto and the 12 principles of agile
+When you're looking at a tool weather it's Trivariate estimates, no estimates, kanban scrum or the new hotness in Javascript farmeworks if you truely value agile you need to bring it back to the Agile Manifesto and the 12 principles of agile.
+
+---
+**Individuals and interactions** over processes and **tools**
+
+Working software over comprehensive documentation
+
+Customer **collaboration** over contract negotiation
+
+**Responding to change** over following a *plan*
+
+Speaker: 
+What I think I've shown here is how you can use the Trivaraite estimation method can help you to 
+* Improve your interactions with the inderviduals within your team and collaborate with the business stake holders. 
+* And to Change the nature of your estimates so that you're not just follwing a plan but making that plan that can identify and respond to change.
 
 ---
 
-Before asking for or providing an estimate.
+**Individuals and interactions** over processes and **tools**
 
-First ask yourself what decisions the estimate will be informing.
+**Working software** over comprehensive **documentation**
+
+Customer **collaboration** over contract negotiation
+
+**Responding to change** over following a *plan*
+
+Speaker: 
+And finally you can produce documentation that will help you deliver the correct software in working order sooner. 
+
+---
+
+## Klee Thomas
+@kleeut
